@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "9d03e6cf-dc8a-4547-b6d0-836bc5386544",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25430157"
+	},
+	"item": [
+		{
+			"name": "PortOne",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/get_intents",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"get_intents"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
