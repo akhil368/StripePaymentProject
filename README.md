@@ -1,5 +1,5 @@
 # StripePaymentProject : Java Spring Boot
-StripePaymentProject is a project build using Strip API and Spring Boot which basically performs creating,capturing,refunding and show a list of payent intents.
+StripePaymentProject is a project built using Strip API and Spring Boot, which creates, captures, refunds, and shows a list of payment intents.
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ Before running the application, ensure you have the following prerequisites:
 
 1. **Create Intent for Payment**
     - Endpoint: `POST /api/v1/create_intent`
-    - Request Body: [PaymentDetails](#payment-details)
+    - Request Body: [paymentIntentDeatils](#paymentIntentDeatils)
 
 2. **Capture the Created Intent**
     - Endpoint: `POST /api/v1/capture_intent/{id}`
@@ -28,7 +28,7 @@ Before running the application, ensure you have the following prerequisites:
 #### Payment Details
 ```json
 {
-  "payment_details": "enter your payment details"
+  "paymentIntentDeatils": "enter your payment details"
 }
 ```
 
